@@ -1,7 +1,7 @@
 {
     "developer.rackspace.com": {
         "routes": {
-            "^/": "default.html",
+            "^/": "docs-singlepage.html",
             "^/$": "index.html",
             "^/signup": "index.html",
             "^/databases": "databases-index.html",
@@ -16,7 +16,6 @@
             "^/docs/rack-cli/": "rack-cli.html",
             "^/sdks": "sdks-home.html",
             "^/sdks/.+?": "sdks-page.html",
-            "^/staged/": "docs-singlepage.html",
             "\\.xml$": "feed.xml"
         }
     }
