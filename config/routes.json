@@ -1,21 +1,7 @@
 {
     "developer.rackspace.com": {
         "routes": {
-            "^/": "docs-singlepage.html",
-            "^/$": "index.html",
-            "^/signup": "index.html",
-            "^/databases": "databases-index.html",
-            "^/blog": "blog-index.html",
-            "^/blog/.+?": "blog-single.html",
-            "^/blog/page?": "blog-index.html",
-            "^/blog/categories": "blog-index.html",
-            "^/blog/authors": "blog-index.html",
-            "^/docs": "docs-home.html",
-            "^/docs/.+?": "docs-page.html",
-            "^/docs/user-guides/infrastructure/": "user-guide.html",
-            "^/docs/rack-cli/": "rack-cli.html",
-            "^/sdks": "sdks-home.html",
-            "^/sdks/.+?": "sdks-page.html",
+            "^/.*": "docs-singlepage.html",
             "\\.xml$": "feed.xml"
         }
     }
