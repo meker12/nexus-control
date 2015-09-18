@@ -16,6 +16,7 @@
             "^/docs/rack-cli/": "rack-cli.html",
             "^/sdks": "sdks-home.html",
             "^/sdks/.+?": "sdks-page.html",
+            "^/staged/": "docs-singlepage.html",
             "\\.xml$": "feed.xml"
         }
     }
